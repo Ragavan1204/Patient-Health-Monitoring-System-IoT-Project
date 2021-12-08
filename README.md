@@ -3,8 +3,5 @@ Here, we use the existing patient care monitors in the hospital to access the pa
 
 This repository contains the details of collecting the data from the patient care monitor through IoT Device and send it to the cloud.we used mqqt protocol with X.509 certification to securely connect the iot device with cloud. Here,there is data logging software called VSCapture running on our device. It collect the data and save it to the csv file. Then the aws client running on our device read csv file and publish the data for the corresponding topic.
 
-We tested this in the hospital
-Data were collected probably and saved in the csv file
-Here I have attached some images of the results.
 
 
